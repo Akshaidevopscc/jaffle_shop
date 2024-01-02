@@ -4,8 +4,8 @@ jaffle_shop:
     dev:
       type: postgres
       host: postgres
-      user: postgres
-      password: "{{env_var('POSTGRES_PASSWORD')}}"
+      user: airflow
+      password: "{{env_var('AIRFLOW_POSTGRES_PASSWORD')}}"
       port: 5432
       dbname: postgres
       schema: public
