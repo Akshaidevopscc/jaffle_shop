@@ -11,4 +11,4 @@ jaffle_shop:
       schema: mart
       threads: 6
     docs:
-    target-path: "/appz/home/airflow/docs/"
+      target-path: "/appz/home/airflow/docs/"
