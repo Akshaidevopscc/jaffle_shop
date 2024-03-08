@@ -10,5 +10,3 @@ jaffle_shop:
       dbname: postgres
       schema: mart
       threads: 6
-  docs:
-    target-path: "/appz/home/airflow/docs/"
