@@ -11,7 +11,7 @@ test-paths: ["tests"]
 analysis-paths: ["analysis"]
 macro-paths: ["macros"]
 
-target-path: "/appz/home/airflow/docs/"
+target-path: "/appz/home/airflow/docs/jaffle_shop/"
 clean-targets:
     - "target"
     - "dbt_modules"
