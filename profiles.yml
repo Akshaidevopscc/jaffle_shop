@@ -5,5 +5,4 @@ jaffle_shop:
      repository: https://github.com/Akshaidevopscc/jaffle_shop
    prod:
      type: duckdb
-     repository: https://github.com/Akshaidevopscc/jaffle_shop
   target: dev
