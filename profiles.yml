@@ -2,7 +2,6 @@ jaffle_shop:
   outputs:
    dev:
      type: duckdb
-     repository: https://github.com/Akshaidevopscc/jaffle_shop
    prod:
      type: duckdb
   target: dev
