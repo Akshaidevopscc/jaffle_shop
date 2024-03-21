@@ -1,25 +1,7 @@
-#jaffle_shop:
-#  target: dev
-#  outputs:
-#    dev:
-#      type: postgres
-#      host: postgres
-#      user: "{{env_var('AIRFLOW_POSTGRES_TEST_USER')}}"
-#      password: "{{env_var('AIRFLOW_POSTGRES_TEST_PASSWORD')}}"
-#      port: 5432
-#      dbname: postgres
-#      schema: mart
-#      threads: 6
-
 jaffle_shop:
   outputs:
    dev:
      type: duckdb
-     #path: '../data/nyc_parking_violations.db'
    prod:
-     type: duckdb
-     # note that path is slightly different as GitHub actions
-     # start in the root directory and not in the
-     # nyc_parking_violations directory
-     #path: './data/prod_nyc_parking_violations.db'  
+     type: duckdb 
   target: dev
