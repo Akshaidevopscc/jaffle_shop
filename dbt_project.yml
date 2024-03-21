@@ -19,8 +19,4 @@ clean-targets:
 
 require-dbt-version: [">=1.0.0", "<2.0.0"]
 
-models:
-  jaffle_shop:
-      materialized: table
-      staging:
-        materialized: view
+repository: https://github.com/Akshaidevopscc/jaffle_shop
