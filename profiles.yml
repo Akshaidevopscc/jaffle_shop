@@ -1,7 +1,7 @@
 jaffle_shop:
   outputs:
     dev:
-      type: duckdb
+      type: postgres
     prod:
-      type: duckdb
+      type: postgres
   target: dev
